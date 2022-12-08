@@ -21,7 +21,6 @@ def add_bid():
   if bid_again == "Y":
     add_bid()
   else:
-    print(bids)
     print_winner()
 add_bid()
 
